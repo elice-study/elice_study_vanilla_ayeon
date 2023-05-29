@@ -1,1 +1,1 @@
-# elice_study_vanillia_ayeon
+# elice_study_vanilla_ayeon
