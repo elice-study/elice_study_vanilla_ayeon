@@ -1,0 +1,151 @@
+@import './reset.css';
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+/* header::after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: url(/assets/img/movie-img/movie_15.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+.header-box {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.title {
+    width: 50%;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.title > p:nth-child(1) {
+    font-size: 2.1rem;
+    display: flex;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.title > p:nth-child(2) {
+    font-size: 1.5rem;
+    font-style: oblique;
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.search {
+    width: 50%;
+    padding: 20px;
+    text-align: right;
+    margin-right: 3rem;
+}
+
+.search > input {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.search > input:focus {
+    outline: none;
+}
+
+.search button {
+    border: 1px solid #fff;
+    background: none;
+    font-size: 1rem;
+    letter-spacing: 0.06rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+/* MAIN */
+
+main {
+    width: 85%;
+    height: 100%;
+    margin: 2rem auto;
+}
+
+main > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detailImg-box > img {
+    width: 340px;
+    height: 490px;
+    border-radius: 4%;
+}
+
+.movie-box {
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movieTitle-box {
+    display: flex;
+    margin: 1rem;
+}
+
+.movieTitle-box p:nth-child(1) {
+    font-size: 4.5rem;
+    margin-right: 1.5rem;
+}
+
+.movieTitle-box p:nth-child(2) {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.creator-box {
+    display: flex;
+    margin: 1rem;
+}
+
+.creator-box p {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.creator-box p:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.actor-box {
+    display: flex;
+    margin: 1rem;
+}
+
+.actor-box p {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.summary-box {
+    margin: 1rem;
+}
+
+.summary-box p {
+    line-height: 170%;
+}
