@@ -84,10 +84,12 @@ main {
     margin: 2rem auto;
 }
 
-main > div {
+/* MAIN - CONTENTS */
+.movieMain-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 
 .detailImg-box > img {
@@ -144,8 +146,21 @@ main > div {
 
 .summary-box {
     margin: 1rem;
+    width: 900px;
 }
 
 .summary-box p {
     line-height: 170%;
+}
+
+/* MAIN - Review */
+
+.reviewTitle-box {
+    margin-bottom: 2rem;
+}
+
+.reviewTitle-box > span {
+    font-size: 2rem;
+    /* text-shadow: 4px 4px #ababab; */
+    /* font-style: italic; */
 }
