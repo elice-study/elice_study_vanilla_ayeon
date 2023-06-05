@@ -3,7 +3,7 @@ function movieLoad() {
     return (
         fetch('../db/movieData.json')
             // then 을 통해 성공적으로 받아오면 response 획득 -> json 형태로 변환하기 위해 response.json
-            .then((Response) => Response.json())
+            .then((response) => response.json())
             // json 에 있는 movies 만 받아오기 위해 json.movies
             .then((json) => json.movies)
     );
