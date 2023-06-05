@@ -5,6 +5,19 @@
 header {
     width: 100%;
     height: 600px;
+    /* background-image: url('../assets/img/background-img/1423102065_3.jpg'); */
+
+    background: linear-gradient(
+            180deg,
+            rgba(20, 20, 20, 0) 10%,
+            rgba(20, 20, 20, 0.35) 25%,
+            rgba(20, 20, 20, 0.45) 50%,
+            rgba(20, 20, 20, 18.85) 75%,
+            rgba(0, 0, 0, 1) 111%
+        ),
+        url('../assets/img/background-img/1423102065_3.jpg');
+
+    background-size: cover;
 }
 
 .header-box {
@@ -15,18 +28,19 @@ header {
 
 .title {
     width: 50%;
-    padding: 5rem;
+    padding: 0 5rem;
     display: inline-block;
+    margin-top: 18rem;
 }
 
-.title > p:nth-child(1) {
+.title span {
     font-size: 5.1rem;
     display: flex;
     font-weight: 600;
     font-style: italic;
 }
 
-.title > p:nth-child(2) {
+.title p {
     font-size: 2rem;
     margin: 1rem auto;
     font-style: oblique;
