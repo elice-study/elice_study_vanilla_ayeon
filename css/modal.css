@@ -15,7 +15,7 @@
 /* Modal - Close */
 
 #close-box {
-    margin: 1rem 1rem 0;
+    margin: 0 0 0.5rem 0;
     display: flex;
     justify-content: end;
 }
@@ -51,8 +51,8 @@ i {
 }
 
 .detailImg-box > img {
-    width: 330px;
-    height: 450px;
+    width: 320px;
+    height: 480px;
     border-radius: 4%;
 }
 
@@ -63,43 +63,45 @@ i {
     justify-content: space-between;
 }
 
-.movieTitle-box {
-    display: flex;
-    margin: 1rem;
-}
-
-.movieTitle-box p:nth-child(1) {
-    font-size: 4.5rem;
-    margin-right: 1.5rem;
-}
-
-.movieTitle-box p:nth-child(2) {
-    font-size: 2rem;
-    padding-top: 2rem;
-}
-
-.creator-box {
-    display: flex;
-    margin: 1rem;
-}
-
-.creator-box p {
-    margin-right: 1rem;
-    font-size: 1.3rem;
-}
-
-.creator-box p:nth-child(1) {
-    font-size: 1.5rem;
-}
-
+.movieTitle-box,
+.creator-box,
 .actor-box {
     display: flex;
     margin: 1rem;
 }
 
-.actor-box p {
-    margin-right: 1rem;
+.movieTitle-box {
+    display: flex;
+}
+
+.movieTitle-box span {
+    font-size: 4rem;
+    margin-right: 1.5rem;
+}
+
+.movieTitle-box p {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.creator-box p {
     font-size: 1.3rem;
+}
+
+.creator-box span {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.actor-box p {
+    font-size: 1.3rem;
+}
+
+.actor-box span {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .summary-box {
