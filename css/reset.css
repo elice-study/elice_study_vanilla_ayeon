@@ -247,6 +247,7 @@ body {
 
 body::-webkit-scrollbar {
     width: 0.8rem;
+    display: none;
 }
 
 body::-webkit-scrollbar-thumb {
